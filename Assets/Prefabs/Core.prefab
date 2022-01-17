@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1757805785981459189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757805785981459190}
+  - component: {fileID: 1757805785981459191}
+  - component: {fileID: 1757805785981459188}
+  m_Layer: 0
+  m_Name: Core
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757805785981459190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757805785981459189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1757805785981459191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757805785981459189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1facd96a63db3499502d66f0a07b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gridWidth: 30
+  _visualController: {fileID: 1757805785981459188}
+  _shipCount: 2
+  _shipPrefab: {fileID: 4399331660428047818, guid: 00382384ad1b2dd4d89d89d8eb717c3a,
+    type: 3}
+  _minDraft: -0.25
+  _maxDraft: -1.5
+  minDepth: -5
+  maxDepth: 1.5
+--- !u!114 &1757805785981459188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757805785981459189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1727aab26ef9154981d058ca69b5c7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointPrefab: {fileID: 2296283989085570103, guid: 9948b804640128644b20c9a75a18a4ee,
+    type: 3}
+  _terrainPrefab: {fileID: -590826282054972229, guid: d08c1d1ffcf6ec54a803c6820c73044d,
+    type: 3}
+  _step: 1
+  _materials:
+  - {fileID: 2100000, guid: c24aa2ecfb390074aa5d001ffa563f51, type: 2}
+  - {fileID: 2100000, guid: 280b747059f5fae44b1d5b12c8e1464a, type: 2}
+  - {fileID: 2100000, guid: bcdafef44a904054d97186dafd827c5f, type: 2}
+  - {fileID: 2100000, guid: 12308ac170c8d4e4a9b756a1ab3fd54e, type: 2}
+  - {fileID: 2100000, guid: f5a5e5cad84b58d4bb1970787b3f167e, type: 2}
+  - {fileID: 2100000, guid: 924f7774c0ab09240891d9144dc8887f, type: 2}
+  - {fileID: 2100000, guid: 4470376923db62a4985d4dc8d4bb6eec, type: 2}
